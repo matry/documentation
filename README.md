@@ -7,6 +7,8 @@ Matry is clean, efficient, and expressive.
 Its syntax conforms to designers mental models, allowing them to express their ideas with clarity and ease.
 It is also platform-agnostic, hiding unnecessary implementation details that are best left to developers.
 
+---
+
 ## Design Principles
 
 The ultimate goal for Matry is to enhance design tooling such that it is on par with developer tooling.
@@ -75,7 +77,7 @@ Common usages might be
 (2) presenting a particular user flow to stakeholders, or 
 (3) visualizing an animation sequence for developers.
 
-Below is a sample of a simple Story:
+Below is a sample of a simple Story, demonstrating the happy path for a login form:
 
 ```
 story LoginFlow
