@@ -1,7 +1,7 @@
 
 # Philosophy
 
-Matry is an attempt to "bridge the gap", so to speak, between designers and developers. Many such attempts currently exist, and more are being introduced with each passing day. We think our approach is unique. In the following document, we will outline that approach, and hopefully shed some light on the logic underpinning Matrys design decisions.
+Matry is an attempt to "bridge the gap", so to speak, between designers and developers. Many such attempts currently exist, and more are being introduced with each passing day. However, we think our approach is unique. In the following document, we will outline that approach, and hopefully shed some light on the logic underpinning Matrys design decisions.
 
 ## The State of The Industry
 
