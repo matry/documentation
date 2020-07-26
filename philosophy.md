@@ -5,9 +5,9 @@ Matry is an attempt to "bridge the gap", so to speak, between designers and deve
 
 ## The State of The Industry
 
-Before delving into our solution, it would be helpful to first explore the current landscape with respect to this effort. Because while there are many contemporary discussions around this issue, nearly all of them suffer from a few problems.
+Before delving into our solution, it would be helpful to first explore the current landscape with respect to this effort. Because while there are many discussions around this issue, nearly all of them suffer from a few problems.
 
-The first problem is that the discussion is heavily focused on the web. Consequently most tooling dedicated to solving this problem focuses on CSS and Javascript, and even worse, usually only React (at the time of this writing). When other platforms are mentioned, they are typically iOS and Android. All three of these platforms are important, but they are not the only platforms in existence. Should designers be forced to change their tooling if they suddenly need to design for a TV or Windows application? We feel strongly that they shouldn't.
+The first problem is that the discussion is heavily focused on the web. Consequently most tooling dedicated to solving this problem focuses on CSS and Javascript, and even worse, many times only React (at the time of this writing). When other platforms are mentioned, they are typically iOS and Android. All three of these platforms are important, but they are not the only platforms in existence. Should designers be forced to change their tooling if they suddenly need to design for a TV or Windows application? We feel strongly that they shouldn't.
 
 Another issue is the shallow thinking around the question of whether designers should learn to code. Most conversations and thoughts we've seen on this topic tend to fall into a categorical trap, which is the idea that designers are "creative" and developers are "technical". Usually these sentiments carry with them the implicit conclusion that since code is "technical" and not "creative", then designers should steer clear of it. On the opposing end of this line of thought exists an equally dubious claim - that the category itself has no merit and that perhaps it should be discarded entirely. Unfortunately, egos inevitably get involved and people are made to feel as if their profession is being diluted or devalued.
 
@@ -23,6 +23,18 @@ Now that we have settled the matter of *implementation*, we can safely revisit t
 
 Code can be thought of as a tool for indirect manipulation, whereas most design tools are oriented towards direct manipulation (using drawing tools against a digital "canvas"). While some things might be easier with direct manipulation, there are several benefits to indirect manipulation. Simply put - yes, designers should write code. Code is an extremely useful tool; it forces people to clarify their thinking as well as their intentions. Once a coding language is sufficiently grasped, it bestows upon its author extraordinary powers. You become vastly more efficient and expressive. There is a popular conception that writing code is more analytical and rigid, and thus less "creative". Nothing is further from the truth. Used correctly, code is a creativity *multiplier*.
 
-If designers *should* write code, but also *should not* implement, then what sort of language might designers use? This is the question that we at Matry are attempting to answer.
+If designers *should* write code, but also *should not* implement, then what sort of language might designers use? We think it would need the following properties:
+
+1. **Verbally expressive**  
+Ideally this language would map as closely as possible to verbal language. That is, it should feel roughly familiar to how designers might describe an interface in casual conversation. Since different languages, modes of expression, and speaking styles complicate this effort, it can only ever be an approximate goal.
+
+2. **Pseudoistic**  
+As stated previously, designers should not be concerned with implementation. Consequently this language should not contain any implementation details.
+
+3. **Platform agnostic**  
+If the language is not geared towards implementation, then it also should remain agnostic as to which platform it is describing. Therefore the syntax should be abstract enough to be able to describe an interface in any current, as well as any future, platform.
+
+
+
 
 
