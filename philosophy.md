@@ -29,7 +29,7 @@ If designers *should* write code, but also *should not* implement, then what sor
 Ideally this language would map as closely as possible to verbal language. That is, it should feel roughly familiar to how designers might describe an interface in casual conversation. Since different languages, modes of expression, and speaking styles complicate this effort, it can only ever be an approximate goal.
 
 2. **Pseudoistic**  
-As stated previously, designers should not be concerned with implementation. Consequently this language should not contain any implementation details.
+As stated previously, designers should not be concerned with implementation. Consequently this language should not contain any implementation details. A language that is not used to implement can be thought of as pseudo-code. This means we need a new category of language, which we might define as "pseudoistic".
 
 3. **Platform agnostic**  
 If the language is not geared towards implementation, then it also should remain agnostic as to which platform it is describing. Therefore the syntax should be abstract enough to be able to describe an interface in any current, as well as any future, platform.
