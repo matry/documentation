@@ -15,9 +15,11 @@ Another issue is the shallow thinking around the question of whether designers s
 
 At Matry, we believe that the difference between "design" and "code" is not a difference of competence, ability, intelligence, or level of technicality. We prefer to view the distinction simply as one of domain-level concerns. Designers are concerned with the interfacial behavior of a given application, whereas developers are concerned with the implementation of that behavior. Any tooling should track as closely as possible to that line of distinction, and should present to each team whatever tools they need to be as efficient and expressive as possible within their respective domain. The idea that "developers write code", and that designers do not, is a poorly construed conclusion that we should critically analyze.
 
-Instead of asking the question "should designers code", we should ask "should designers implement?" Phrased in that manner, we believe the question is "typically no." There are mountains of extraneous detail involved in actually building a working digital product, and it varies wildly even between different applications of a single platform. It varies even more so between platforms, such that finding a software developer who can competently build products in more than one platform is relatively rare. Our answer is "typically no" because there do exist many designers who are able to write production-quality CSS, as well as UI code for native environments like iOS and Android. If a designer *happens* to feel comfortable doing so, then of course that's a good solution! However, we firmly believe that it should never become an industry-standard requirement.
+When someone asks if "designers should code", there are always two underlying questions being asked, since "coding" means two separate things. On the one hand, there is simply the material aspect of writing code in a text editor. On the other hand, there is the fact that code is used to create a working product (what we call "implementation"). Let's form these two questions explicitly - (1) should designers literally write code, and (2) should designers *implement* digital applications.
 
-Now that we have settled the matter of *implementation*, we can safely revisit the original question with a fresh set of eyes.
+Phrased in that manner, we believe the answer to the second question is "typically no." There are mountains of extraneous detail involved in actually building a working digital product, and it varies wildly even between different applications of a single platform. It varies even more so between platforms, such that finding a software developer who can competently build products in more than one platform is relatively rare. Our answer is "typically no" because there do exist many designers who are able to write production-quality CSS, as well as UI code for native environments like iOS and Android. If a designer *happens* to feel comfortable doing so, then of course that's a good solution! However, we firmly believe that it should never become an industry-standard requirement.
+
+Now that we have settled the matter of *implementation*, we can safely revisit the first question with a fresh set of eyes.
 
 ## Should designers write code?
 
@@ -34,7 +36,4 @@ As stated previously, designers should not be concerned with implementation. Con
 3. **Platform agnostic**  
 If the language is not geared towards implementation, then it also should remain agnostic as to which platform it is describing. Therefore the syntax should be abstract enough to be able to describe an interface in any current, as well as any future, platform.
 
-
-
-
-
+Matry is an attempt to create a language that satisfies those requirements.
