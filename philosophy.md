@@ -17,4 +17,12 @@ At Matry, we believe that the difference between "design" and "code" is not a di
 
 Instead of asking the question "should designers code", we should ask "should designers implement?" Phrased in that manner, we believe the question is "typically no." There are mountains of extraneous detail involved in actually building a working digital product, and it varies wildly even between different applications of a single platform. It varies even more so between platforms, such that finding a software developer who can competently build products in more than one platform is relatively rare. Our answer is "typically no" because there do exist many designers who are able to write production-quality CSS, as well as UI code for native environments like iOS and Android. If a designer *happens* to feel comfortable doing so, then of course that's a good solution! However, we firmly believe that it should never become an industry-standard requirement.
 
-Now let's ask a separate question - "should designers code?" Divorced from implementation, the answer is yes, absolutely! But how might we write code without concern for implementation? This is the question that Matry is trying to answer.
+Now that we have settled the matter of *implementation*, we can safely revisit the original question with a fresh set of eyes.
+
+## Should designers write code?
+
+Code can be thought of as a tool for indirect manipulation, whereas most design tools are oriented towards direct manipulation (using drawing tools against a digital "canvas"). While some things might be easier with direct manipulation, there are several benefits to indirect manipulation. Simply put - yes, designers should write code. Code is an extremely useful tool; it forces people to clarify their thinking as well as their intentions. Once a coding language is sufficiently grasped, it bestows upon its author extraordinary powers. You become vastly more efficient and expressive. There is a popular conception that writing code is more analytical and rigid, and thus less "creative". Nothing is further from the truth. Used correctly, code is a creativity *multiplier*.
+
+If designers *should* write code, but also *should not* implement, then what sort of language might designers use? This is the question that we at Matry are attempting to answer.
+
+
