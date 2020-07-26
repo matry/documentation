@@ -15,7 +15,7 @@ Another issue is the shallow thinking around the question of whether designers s
 
 At Matry, we believe that the difference between "design" and "code" is not a difference of competence, ability, intelligence, or level of technicality. We prefer to view the distinction simply as one of domain-level concerns. Designers are concerned with the interfacial behavior of a given application, whereas developers are concerned with the implementation of that behavior. Any tooling should track as closely as possible to that line of distinction, and should present to each team whatever tools they need to be as efficient and expressive as possible within their respective domain. The idea that "developers write code", and that designers do not, is a poorly construed conclusion that we should critically analyze.
 
-When someone asks if "designers should code", there are always two underlying questions being asked, since "coding" means two separate things. On the one hand, there is simply the material aspect of writing code in a text editor. On the other hand, there is the fact that code is used to create a working product (what we call "implementation"). Let's form these two questions explicitly:
+When someone asks if "designers should code", there are always two underlying questions being asked, since "coding" means two separate things. On the one hand, there is simply the material aspect of writing code in a text editor. On the other hand, there is the fact that code is used to create a working product (what we call "implementation"). Let's formulate these two questions so they are more explicit:
 
 1. Should designers literally write code?
 2. Should designers *implement* digital applications?
