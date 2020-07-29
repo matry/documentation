@@ -55,3 +55,13 @@ For Matry to be minimally viable, designers must be able to:
 5. View output
    1. View list of stories
    2. View single story
+
+## System Design
+
+A system that could satisfy the above requirements would be:
+
+- A node app that watches `.matry` files in a directory
+- On application start, as well as on file change, parse tokens/components/stories within `{project name}/.src`
+- On navigation to `/` show a list of tokens, components, and stories
+- On click of a story, navigate to `/{story name}`
+- On navigation to `/{story name}`, render the story
