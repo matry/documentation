@@ -37,7 +37,7 @@ The words and syntax used by the language should mirror verbal language as close
 
 ## A Quick Tour
 
-All Matry projects are split into three modules - Tokens, Components, and Stories.
+All Matry projects are split into three modules - tokens, components, and stories.
 
 Note: _apologies for the lack of syntax highlighting, Matry is obviously not yet recognized by Github :p_
 
@@ -64,10 +64,10 @@ background-image: $branding.dark-logo
 
 ### Components
 
-All designs created within Matry are based on *Components*.
-A Component in Matry is technically defined as "a repeatable instance of encapsulated visual state".
-More plainly, a Component is simply a slice of UI that can be considered and designed for independently.
-Below is a simple example of a Component titled "RedSquare".
+All designs created within Matry are based on *components*.
+A component in Matry is technically defined as "a repeatable instance of encapsulated visual state".
+More plainly, a component is simply a slice of UI that can be considered and designed for independently.
+Below is a simple example of a component titled "RedSquare".
 
 ```
 component RedSquare {
@@ -81,14 +81,14 @@ component RedSquare {
 }
 ```
 
-As can probably be inferred from the above code sample, Components are comprised of (1) elements and (2) styles.
-In this case the Component has a single element - a generic shape named "square".
+As can probably be inferred from the above code sample, components are comprised of (1) elements and (2) styles.
+In this case the component has a single element - a generic shape named "square".
 At first glance this probably looks like CSS, and in fact much of it is inspired by it of course.
 
 However, a massive difference here is that style values cannot be overridden.
 Thus, in Matry there is no cascade.
 
-Instead, a Component in Matry must explicitly define all visual states for the Component directly within the Component definition.
+Instead, a component in Matry must explicitly define all visual states for the component directly within the component definition.
 In order to accomplish this, we have an additional concept called a "variant":
 
 ```
@@ -124,15 +124,15 @@ RedSquare
 
 ### Stories
 
-*Stories* are repeated instances of Components with varying parameters.
-Each instance is called a "frame", and a Story can be thought of as a slideshow of a set of frames.
+*Stories* are repeated instances of components with varying parameters.
+Each instance is called a "frame", and a story can be thought of as a slideshow of a set of frames.
 They can be used by designers for a variety of purposes, but most purposes are centered around presentation.
 Common usages might be
 (1) demonstrating all the possible visual states for a given component, 
 (2) presenting a particular user flow to stakeholders, or 
 (3) visualizing an animation sequence for developers.
 
-Below is a sample of a simple Story, demonstrating the happy path for a login form:
+Below is a sample of a simple story, demonstrating the happy path for a login form:
 
 ```
 story LoginFlow {
